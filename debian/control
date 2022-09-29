@@ -1,0 +1,25 @@
+Source: golang-github-git-lfs-wildmatch
+Section: devel
+Priority: optional
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Stephen Gelman <ssgelm@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any
+Standards-Version: 4.6.0.1
+Homepage: https://github.com/git-lfs/wildmatch
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-git-lfs-wildmatch
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-git-lfs-wildmatch.git
+XS-Go-Import-Path: github.com/git-lfs/wildmatch
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-git-lfs-wildmatch-dev
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Pattern matching language for filepaths compatible with Git
+ wildmatch package wildmatch is a reimplementation of Git's
+ wildmatch.c-style filepath pattern matching.
+ .
+ For more information, see the godoc
+ (https://godoc.org/github.com/git-lfs/wildmatch).

@@ -1,0 +1,33 @@
+golang-github-git-lfs-wildmatch (2.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump standards version and dh compat level
+
+ -- Stephen Gelman <ssgelm@debian.org>  Fri, 15 Oct 2021 02:27:08 -0500
+
+golang-github-git-lfs-wildmatch (1.0.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump standards version to 4.4.1
+  * Change to DH compat 12
+
+ -- Stephen Gelman <ssgelm@debian.org>  Tue, 05 Nov 2019 13:31:07 -0600
+
+golang-github-git-lfs-wildmatch (1.0.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump standards version to 4.2.1
+
+ -- Stephen Gelman <ssgelm@debian.org>  Thu, 01 Nov 2018 19:04:56 -0500
+
+golang-github-git-lfs-wildmatch (0.0~git20180706.b31c344-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Stephen Gelman <ssgelm@gmail.com>  Sat, 28 Jul 2018 03:53:29 +0000
+
+golang-github-git-lfs-wildmatch (0.0~git20180219.8a05186-1) unstable; urgency=medium
+
+  * Initial release (Closes: #892011)
+
+ -- Stephen Gelman <ssgelm@gmail.com>  Sun, 04 Mar 2018 03:45:23 +0000
